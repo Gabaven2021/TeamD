@@ -138,9 +138,6 @@ article {
     margin-left: 120px;
 }
 
-.teacher {
-    
-}
 
 .evaluation {
     font-family: "Yu Mincho", "YuMincho", serif;
@@ -148,6 +145,19 @@ article {
     font-weight: normal;
 }
 
+.result-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.result-contents a {
+    color: #432;
+}
+
+.result-contents a:hover {
+    color: #0bd;
+}
 
 /* サイドバー */
 aside {
